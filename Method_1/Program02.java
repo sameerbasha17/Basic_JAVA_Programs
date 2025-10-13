@@ -18,6 +18,8 @@ public class Program02
         {
             System.out.println("Odd");
         }
+
+        sc.close();
     }
     
 }
