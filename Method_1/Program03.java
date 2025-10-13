@@ -19,7 +19,9 @@ public class Program03 {
             result += i;
         }
          
-        System.out.printf("The sum of first %d natural numbers is %d",n,result);
+        System.out.printf("The sum of first %d natural numbers is %d%n",n,result);
+        
+        sc.close();
     }
 }
 
