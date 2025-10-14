@@ -21,6 +21,8 @@ public class Program01
             String result = number>0?"positive" : "negative";
             System.out.println("The number is "+result+".");
         }
+
+        sc.close();
     }
     
 }
