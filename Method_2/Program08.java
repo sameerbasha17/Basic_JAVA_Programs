@@ -15,6 +15,8 @@ public class Program08
         int number = sc.nextInt();
 
         prime(number);
+        
+        sc.close();
     }
     
     public static void prime(int number)
