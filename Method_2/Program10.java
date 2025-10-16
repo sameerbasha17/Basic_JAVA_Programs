@@ -13,6 +13,8 @@ public class Program10
 
         Program10 obj = new Program10();
         System.out.println("The sum of digit in " + number + " is : "+ obj.getSum(number));
+        
+        sc.close();
     }   
 
     int getSum(String number)
