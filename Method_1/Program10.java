@@ -49,5 +49,5 @@ Case - 3 :
 ----------
 Enter a number : 
 -79
-The sum of digits in -79 is : -16   => which is mathematically wrong, so i write this program in method 2 in more effectient way, so you can check out there.
+The sum of digits in -79 is : -16   => which is mathematically wrong, so i write this program in method 3 in more effectient way(to handle even number in negative), so you can check out there.
  */
