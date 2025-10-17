@@ -1,7 +1,9 @@
 /* PS :
 Find the Reverse of a Number in Java
 Given a integer input the objective is to break down the  number into digits and rearrange them in reverse order.
- */
+*/
+
+// This method is not that much efficient one, but i have done this because i felt so enthusastic to work with Strings.
 
 import java.util.Scanner;
 
