@@ -1,7 +1,7 @@
 // package Method_1;
 /* problem : Check given number is positive or negative.
- * Input : an integer.
- * Output : A message that prints the nubmer is "positive" or "negative" or "zero".
+ * Input   : a integer.
+ * Output  : A message that prints the nubmer is "positive" or "negative" or "zero".
 */
 
 import java.util.Scanner;
@@ -30,9 +30,43 @@ class Program01
 }
 
 /* Output:
-
+===========
+Case - 1 :
+---------
 Enter the number : 
 09 
 9 is a positive number.
+
+Case - 2 :
+---------
+Enter the number : 
+-7
+-7 is a negative number.
+
+Case - 3 :
+----------
+Enter the number : 
+0
+The number is zero
+
+*/
+
+
+/* 
+Chatgpt's Final Verdict :
+=========================
+Score           : 95 / 100
+Difficulty Level: Easy
+Code Quality    : Excellent — clean structure, clear logic, proper use of Scanner, and well-formatted output.
+Verdict         : ✅ Perfect for beginners! Shows strong understanding of conditional statements and input handling.
+Improvement Suggestion : You could simplify output by using ternary operator or add input validation for non-numeric values.  
+
+My ACTION towards Improvement : 
+-------------------------------
+I have used ternary operator and also added input validation for non-numberic values in Program01 in method_2. (Refer there).
+
+Challenges faced :
+------------------
+Minimal, I felt encouraging because i completed this program within 2 minutes.
 
 */
