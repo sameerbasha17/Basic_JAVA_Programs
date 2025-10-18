@@ -1,6 +1,18 @@
-/* PS : Given an integer input the objective is to write a Java code to Check Whether a Number is Even or Odd.
-To do so the main idea is to divide the number by 2 and check if it’s divisible or not. 
-It’s an Even number is it’s perfectly divisible by 2 or an Odd number otherwise. */
+/* 
+------------------------------------------------------------
+Program No.   : 02
+Program Title : Check if a number is even or odd
+Author        : Shaik Sameer Basha
+Date Created  : 14-Oct-2025
+Last Modified : 18-Oct-2025
+IDE Used      : VS Code
+------------------------------------------------------------
+
+ ★ PS     : Check given number is Even or Odd.
+ ✩ Input  : a integer.
+ ✩ Output : A message that prints the number is "Even" or "Odd".
+-------------------------------------------------------------
+*/
 
 
 import java.util.Scanner;
@@ -11,6 +23,14 @@ public class Program02 {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter a number : ");
+        
+        if(!sc.hasNextInt())                                // Added input validation 
+        {
+            System.out.println("Invalid input ! Please enter a valid input.");
+            sc.close();
+            return;
+        }
+
         int number = sc.nextInt();
 
         String result = number % 2 == 0 ? "even" : "odd";     // Used ternary operator for coincise decision making
@@ -25,28 +45,45 @@ public class Program02 {
 ==========================
 Case - 1:
 ---------
-
 Enter a number : 
 7
 7 is odd
 
-
 Case - 2 :
 -----------
-
 Enter a number : 
 0
 0 is even
 
-
 Case - 3 :
 -----------
-
 Enter a number : 
 -9
 -9 is odd
 
+Case - 4 :
+-----------
+Enter a number : 
+s
+Invalid input ! Please enter a valid input.
+
+*/
+
+// This program is executed three times to explore all four cases for sucessful execution.
+
+/*
+ChatGpt's Final Verdict :
+=========================
+Difficulty Level : Easy
+Code Quality : Excellent — clean logic, proper validation, and concise ternary usage.
+Verdict : ✅ Well-structured and professional beginner-level program.
+-------------------------------------------------------------------------------------------
+My ACTION towards Improvement : 
+-------------------------------
+Used ternary operator and added input validation.
+
+Challenges faced :
+------------------
+Minimal, Felt encouraging to code more...
 
  */
-
- // This program is executed three times to explore all three cases for sucessful execution.
