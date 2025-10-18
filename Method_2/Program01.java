@@ -1,7 +1,19 @@
-/*
+/* 
+------------------------------------------------------------
+Program No.   : 01
+Topic         : Conditional Statements
+Program Title : Check if a number is positive, negative, or zero
+Author        : Shaik Sameer Basha
+Date Created  : 13-Oct-2025
+Last Modified : 18-Oct-2025
+Language Used : Java
+IDE Used      : VS Code
+------------------------------------------------------------
+
  ★ PS     : Check given number is positive or negative.
  ✩ Input  : a integer.
  ✩ Output : A message that prints the number is "positive" or "negative" or "zero".
+-------------------------------------------------------------
 */
 
 import java.util.Scanner;
@@ -63,13 +75,25 @@ Enter a number :
 sameer
 Invalid input ! please enter a valid input.
 
- */
+*/
 
- /* Chatgpt's Final Verdict :
-=============================
-Difficulty Level: Easy
-Code Quality: Excellent — clean structure, readable logic, proper use of ternary operator, and input validation included. Well-formatted output and clear comments.
+/* 
 
-Challenges faced :
------------------
-Minimal, i have learnt the Scanner class methods like hasInt(),hasFloat(),etc... */
+
+------------------------------------------------------------
+ChatGPT’s Final Verdict :
+=========================
+Difficulty Level : Easy
+Code Quality     : Excellent — clean structure and clear logic.
+Verdict          : ✅ Beginner-friendly program with solid input handling.
+
+Challenges Faced :
+------------------
+Initially i didn’t handle invalid input. Fixed it using hasNextInt().
+
+Learning Outcome :
+------------------
+I Learnt about input validation and ternary operator.
+
+------------------------------------------------------------
+*/
