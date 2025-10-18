@@ -1,7 +1,19 @@
-// package Method_1;
-/* problem : Check given number is positive or negative.
- * Input   : a integer.
- * Output  : A message that prints the nubmer is "positive" or "negative" or "zero".
+/* 
+------------------------------------------------------------
+Program No.   : 01
+Topic         : Conditional Statements
+Program Title : Check if a number is positive, negative, or zero
+Author        : Shaik Sameer Basha
+Date Created  : 13-Oct-2025
+Last Modified : 18-Oct-2025
+IDE Used      : VS Code
+Path          : Basic_JAVA_Programs/Method_1/Program01.java
+------------------------------------------------------------
+
+ ★ PS     : Check given number is positive or negative.
+ ✩ Input  : a integer.
+ ✩ Output : A message that prints the number is "positive" or "negative" or "zero".
+-------------------------------------------------------------
 */
 
 import java.util.Scanner;
