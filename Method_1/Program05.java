@@ -1,6 +1,19 @@
-/* Find the Greatest of the Two Numbers in Java.
-Given two integer input Number1 and Number2, the objective is to write a Java code to compare both the Numbers and Find the Greatest of the Two Numbers. 
-To do so we’ll use if-else statements and print the output. */
+/* 
+--------------------------------------------------------------------------
+Program No.   : 05
+Program Title : Find the Greatest of the Two Numbers in Java.
+Author        : Shaik Sameer Basha
+Date Created  : 14-Oct-2025
+Last Modified : 19-Oct-2025
+IDE Used      : VS Code
+Path          : Basic_JAVA_Programs/Method_1/Program05.java
+---------------------------------------------------------------------------
+
+ ★ PS     : Find the Greatest of the Two Numbers in Java.
+ ✩ Input  : Two numbers.
+ ✩ Output : A message that prints the Greatest number.
+----------------------------------------------------------------------------
+*/
 
 // Method-1: if-else statement
 
@@ -59,4 +72,9 @@ Enter number2 :
 7
 Both numbers are equal.
 
- */
+*/
+
+/* My Observation :
+===================
+Works good. But, times like this ternary operator is best choice. So, i used ternary operator in method_2/Program05.java
+*/
