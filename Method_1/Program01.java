@@ -1,11 +1,10 @@
 /* 
 ------------------------------------------------------------
 Program No.   : 01
-Topic         : Conditional Statements
 Program Title : Check if a number is positive, negative, or zero
 Author        : Shaik Sameer Basha
 Date Created  : 13-Oct-2025
-Last Modified : 18-Oct-2025
+Last Modified : 19-Oct-2025
 IDE Used      : VS Code
 Path          : Basic_JAVA_Programs/Method_1/Program01.java
 ------------------------------------------------------------
@@ -65,20 +64,7 @@ The number is zero
 
 
 /* 
-Chatgpt's Final Verdict :
-=========================
-Score           : 95 / 100
-Difficulty Level: Easy
-Code Quality    : Excellent — clean structure, clear logic, proper use of Scanner, and well-formatted output.
-Verdict         : ✅ Perfect for beginners! Shows strong understanding of conditional statements and input handling.
-Improvement Suggestion : You could simplify output by using ternary operator or add input validation for non-numeric values.  
-
-My ACTION towards Improvement : 
--------------------------------
-I have used ternary operator and also added input validation for non-numberic values in Program01 in method_2. (Refer there).
-
-Challenges faced :
-------------------
-Minimal, I felt encouraging because i completed this program within 2 minutes.
-
+My Observation:
+===============
+Ternary operator makes this program well . So, i want to use the ternary operator and also add input integer validation in Method_2/Program01.java
 */
