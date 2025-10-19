@@ -12,7 +12,19 @@ public class Program03
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter n : ");
-        int n = sc.nextInt();           
+        if(!sc.hasNextInt())
+        {
+            System.out.println("Invalid input ! Please enter a valid input.");
+            sc.close();
+            return;
+        }
+        int n = sc.nextInt();       
+        if(n <=0)
+        {
+            System.out.printf("There are no natural numbers to sum upto %d. Therefore Sum = 0 ",n);
+            sc.close();
+            return;
+        }    
 
         int result = n*(n+1)/2;             // runs in O(1) time complexity.
         System.out.printf("The sum of first %d natural numbers is : %d",n,result);
@@ -23,10 +35,29 @@ public class Program03
 }
     
 /* Output :
- 
+===========
+Case - 1 :
+----------
 Enter n : 
 9
 The sum of first 9 natural numbers is : 45
 
+Case - 2 :
+----------
+Enter n : 
+-7
+There are no natural numbers to sum upto -7. Therefore Sum = 0 
+
+Case - 3 :
+----------
+Enter n : 
+a
+Invalid input ! Please enter a valid input.
+
+*/
+
+/* My Observation :
+====================
+The program is executing successfully. keep coding...
  */
 
