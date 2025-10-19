@@ -1,5 +1,19 @@
-/* PS : Find the Sum of First N Natural Numbers in Java.
-Given an integer input of N, the objective is to find the sum of all the natural numbers until the given input integer. */
+/* 
+------------------------------------------------------------
+Program No.   : 03
+Program Title : Check if a number is positive, negative, or zero
+Author        : Shaik Sameer Basha
+Date Created  : 14-Oct-2025
+Last Modified : 19-Oct-2025
+IDE Used      : VS Code
+Path          : Basic_JAVA_Programs/Method_1/Program03.java
+------------------------------------------------------------
+
+ ★ PS     : Find the Sum of First N Natural Numbers in Java.
+ ✩ Input  : a integer.
+ ✩ Output : A message that prints the "sum" of "n" natural numbers.
+-------------------------------------------------------------
+*/
 
 // Method 01 : for - loop method 
 
@@ -25,10 +39,24 @@ public class Program03 {
     }
 }
 
-/* Output :  
- 
+/* Output : 
+===========
+Case - 1 :
+----------
 Enter n : 
 9
 The sum of first 9 natural numbers is 45
 
+Case - 2 :
+----------
+Enter n : 
+-17
+The sum of first -17 natural numbers is 0   
+
+*/
+
+/* My Observation :
+   ----------------
+When non-natural number is given as input it prints sum as 0 . so, i want to improve the logic in better way .
+so, that i have added non-natural number exception case and used "sum of N natural numbers" -> formula  in Method_2/Program03.java
 */
