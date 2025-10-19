@@ -1,18 +1,18 @@
 /* 
-------------------------------------------------------------
+---------------------------------------------------------------------
 Program No.   : 03
-Program Title : Check if a number is positive, negative, or zero
+Program Title : Find the Sum of First N Natural Numbers in Java.
 Author        : Shaik Sameer Basha
 Date Created  : 14-Oct-2025
 Last Modified : 19-Oct-2025
 IDE Used      : VS Code
 Path          : Basic_JAVA_Programs/Method_1/Program03.java
-------------------------------------------------------------
+---------------------------------------------------------------------
 
  ★ PS     : Find the Sum of First N Natural Numbers in Java.
  ✩ Input  : a integer.
  ✩ Output : A message that prints the "sum" of "n" natural numbers.
--------------------------------------------------------------
+----------------------------------------------------------------------
 */
 
 // Method 01 : for - loop method 
