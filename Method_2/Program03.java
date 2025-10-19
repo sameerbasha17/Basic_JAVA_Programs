@@ -1,7 +1,20 @@
-/* PS : Find the Sum of First N Natural Numbers in Java.
-Given an integer input of N, the objective is to find the sum of all the natural numbers until the given input integer. */
+/* 
+--------------------------------------------------------------------
+Program No.   : 03
+Program Title : Find the Sum of First N Natural Numbers in Java.
+Author        : Shaik Sameer Basha
+Date Created  : 14-Oct-2025
+Last Modified : 19-Oct-2025
+IDE Used      : VS Code
+Path          : Basic_JAVA_Programs/Method_2/Program03.java
+---------------------------------------------------------------------
 
-// Method 01 : Using the formula "sum of Nth term"
+ ★ PS     : Find the Sum of First N Natural Numbers in Java.
+ ✩ Input  : a integer.
+ ✩ Output : A message that prints the "sum" of "n" natural numbers.
+---------------------------------------------------------------------
+*/
+// Method 02 : Using the formula "sum of Nth term"
 
 import java.util.Scanner;
 
@@ -12,14 +25,16 @@ public class Program03
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter n : ");
-        if(!sc.hasNextInt())
+
+        if(!sc.hasNextInt())                      // if user enter other than a integer then it tiggers.
         {
             System.out.println("Invalid input ! Please enter a valid input.");
             sc.close();
             return;
         }
+        
         int n = sc.nextInt();       
-        if(n <=0)
+        if(n <=0)                               // If user enter the non-natural number then it tiggers.
         {
             System.out.printf("There are no natural numbers to sum upto %d. Therefore Sum = 0 ",n);
             sc.close();
