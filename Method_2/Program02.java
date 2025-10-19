@@ -4,8 +4,9 @@ Program No.   : 02
 Program Title : Check if a number is even or odd
 Author        : Shaik Sameer Basha
 Date Created  : 14-Oct-2025
-Last Modified : 18-Oct-2025
+Last Modified : 19-Oct-2025
 IDE Used      : VS Code
+Path          : Basic_JAVA_Programs/Method_2/Program02.java
 ------------------------------------------------------------
 
  ★ PS     : Check given number is Even or Odd.
@@ -72,18 +73,8 @@ Invalid input ! Please enter a valid input.
 // This program is executed three times to explore all four cases for sucessful execution.
 
 /*
-ChatGpt's Final Verdict :
-=========================
-Difficulty Level : Easy
-Code Quality : Excellent — clean logic, proper validation, and concise ternary usage.
-Verdict : ✅ Well-structured and professional beginner-level program.
--------------------------------------------------------------------------------------------
-My ACTION towards Improvement : 
--------------------------------
-Used ternary operator and added input validation.
+My Observation : 
+================
+Works well, Enhancement is achieved like i desired.
 
-Challenges faced :
-------------------
-Minimal, Felt encouraging to code more...
-
- */
+*/
