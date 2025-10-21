@@ -72,4 +72,4 @@ My Observation :
 ----------------
 Works nice, but when a negative number is given as input, it prints the output in negative. So, i have written to calculate only magnitude in method_2/Program10.java
 
-*/
+ */
