@@ -25,6 +25,8 @@ public class Program12
         System.out.println("Enter a number : ");
         String str = sc.nextLine();
 
+        str = str.toLowerCase();  // "A" or "a" is treated in same way
+
         if(isPalindrome(str))
         {
             System.out.printf("%s is a palindrome.",str);
@@ -89,16 +91,22 @@ Enter a number :
 Case - 3 :
 ----------
 Enter a number : 
+MADam
+madam is a palindrome.
+
+Case - 4 :
+----------
+Enter a number : 
 12$8*821
 12$8*821 is a palindrome.
 
-Case - 4 :
+Case - 5 :
 ----------
 Enter a number : 
 123a*****a(321
 123a*****a(321 is a palindrome.
 
-Case - 5 :
+Case - 6 :
 ----------
 Enter a number : 
 ilov3#3volu
