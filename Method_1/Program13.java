@@ -82,7 +82,9 @@ Enter a number :
 
 Case - 4 :
 ----------
-Armstrong numbers are only defined for non-negative integers.
+Enter a number : 
+-7
+Armstrong numbers are only defined for non-negative integers.So, please enter a positive value.
 
 */
 
